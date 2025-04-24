@@ -1,7 +1,7 @@
 # Ex-1 IMPLEMENTATION-OF-SYMBOL-TABLE
-# Register Number :212223040045
-# Date : 10.4.25
-# AIM :To write a C program to implement a symbol table
+# Register Number : 212223040045
+# AIM :
+## To write a C program to implement a symbol table.
 # ALGORITHM
 1.	Start the program.
 2.	Get the input from the user with the terminating symbol ‘$’.
@@ -11,8 +11,8 @@
 6.	The steps are repeated till ‘$’ is reached.
 7.	To reach a variable, enter the variable to be searched and the symbol table has been checked for the corresponding variable, the variable along with its address is displayed as a result.
 8.	Stop the program. 
-# PROGRAM
-```
+# PROGRAM:
+```C
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>
@@ -63,9 +63,10 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT
-![Screenshot 2025-04-10 103547](https://github.com/user-attachments/assets/f73592c6-ccc6-4b56-8089-0d5840918043)
-![Screenshot 2025-04-10 103715](https://github.com/user-attachments/assets/c200ca16-d2fe-40eb-b7f5-084b1cd764f9)
+# OUTPUT:
+![image](https://github.com/user-attachments/assets/bf55a566-b069-452b-8806-ecb281df8319)
 
-# RESULT
+![image](https://github.com/user-attachments/assets/308993e9-a827-467e-b6c8-2d6d93f61e57)
+
+# RESULT:
 ### The program to implement a symbol table is executed and the output is verified.
